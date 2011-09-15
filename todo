@@ -21,3 +21,17 @@ user
  - registration date
 
 tests for everything
+
+steps:
+ * build model for posts
+ * build view and controllers for posts
+ * build model for users
+ * build view and controller for users
+ * add a login form
+ * create some user accounts
+ * require being logged in in order to post
+ * create some posts
+ * build the model for comments
+ * build view and controller for comments
+ * if a user is logged in, he's the one posting a comment
+   otherwise, allow for anonymous comments but set the is_spam flag
