@@ -1,0 +1,19 @@
+eventual goals for this thing:
+posts:
+ - date
+ - user
+ - title
+ - body
+ - is_awesome flag
+
+comments:
+ - date
+ - one of commenter (anonymous), user
+ - body
+ - is_spam flag
+
+user
+ - name
+ - password
+
+tests for everything
