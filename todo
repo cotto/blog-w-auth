@@ -13,7 +13,11 @@ comments:
  - is_spam flag
 
 user
- - name
+ - username
+ - first name
+ - last name
+ - nickname
  - password
+ - registration date
 
 tests for everything
