@@ -16,8 +16,11 @@
 </p>
 
 <p>
-  <b>Is awesome:</b>
-  <%= @blog_post.is_awesome %>
+  <b>Is 
+  <% if !@blog_post.is_awesome %>
+      not
+  <% end %>
+  awesome. </b>
 </p>
 
 
