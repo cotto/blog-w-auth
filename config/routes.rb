@@ -1,4 +1,6 @@
 BlogWAuth::Application.routes.draw do
+  resources :blog_posts
+
   get "home/index"
 
   # The priority is based upon order of creation:
