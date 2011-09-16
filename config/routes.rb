@@ -1,4 +1,6 @@
 BlogWAuth::Application.routes.draw do
+  resources :users
+
   resources :blog_posts
 
   get "home/index"
