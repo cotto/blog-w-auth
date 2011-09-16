@@ -35,6 +35,7 @@ steps:
  * require being logged in in order to post
  * create some posts
  * build the model for comments
- * build view and controller for comments
+   - relations and validations
+ * tweak view and controller for comments
  * if a user is logged in, he's the one posting a comment
    otherwise, allow for anonymous comments but set the is_spam flag
